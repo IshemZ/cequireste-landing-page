@@ -2,24 +2,28 @@ import { IFAQ } from "@/types";
 import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+  {
+    question: `Qu'est-ce que ${siteDetails.siteName} ?`,
+    answer: `${siteDetails.siteName} est un révélateur de réalité économique pour solopreneurs et SaaS founders. Il décompose chaque euro facturé pour montrer exactement ce qui reste dans votre poche.`,
+  },
+  {
+    question: "Comment ça fonctionne ?",
+    answer:
+      "Entrez le prix de votre abonnement, vos coûts, charges et impôts. Nous calculons automatiquement le revenu réel par client.",
+  },
+  {
+    question: "Est-ce que c'est gratuit ?",
+    answer:
+      "Oui, la version de base est gratuite pour découvrir votre réalité économique. Des options premium pour analyses avancées.",
+  },
+  {
+    question: "Pour qui est-ce fait ?",
+    answer:
+      "Pour tous les créateurs de SaaS, solopreneurs et auto-entrepreneurs qui veulent des prix rentables et une visibilité claire sur leurs revenus.",
+  },
+  {
+    question: "Pourquoi pas un simple tableur ?",
+    answer:
+      "Parce que les tableurs demandent des connaissances fiscales et comptables. Nous simplifions tout pour que vous ayez la réponse en quelques clics.",
+  },
 ];

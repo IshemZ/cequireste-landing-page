@@ -1,103 +1,192 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnexi-launch%2Ffinwise-landing-page).ff
+# 💰 19€ facturés ≠ 19€ gagnés
 
-# Finwise - Next.js + Tailwind Landing Page Template
+Ce projet vise à révéler une vérité business simple mais invisible :
+**le prix affiché d’un abonnement n’est jamais ce qui finit réellement dans la poche du fondateur.**
 
-Finwise is a lightweight, easily configurable, and customizable **Next.js** and **Tailwind CSS** landing page template. It’s built to be adaptable, performant, and perfect for any product launch, portfolio, or promotional site.
+Ce n’est pas un outil de calcul.
+Ce n’est pas un outil fiscal.
 
-Try out the demo here: [https://finwise-omega.vercel.app](https://finwise-omega.vercel.app).
-
-Please check out the documentation below to get started.
-
----
-
-## Features
-
-- **Next.js** app router with **TypeScript**
-- **Tailwind CSS** v3 for flexible styling customization
-- Smooth transitions powered by **Framer Motion**
-- Built-in **font optimization** with [next/font](https://nextjs.org/docs/app/api-reference/components/font)
-- Automatic **image optimization** via [next/image](https://nextjs.org/docs/app/building-your-application/optimizing/images)
-- Access to **31+ icon packs** via [React Icons](https://react-icons.github.io/react-icons/)
-- Near-perfect **Lighthouse score**
-- Modular, responsive, and **scalable components**
-- **Free lifetime updates**
+👉 C’est un **révélateur de réalité économique** pour solopreneurs, SaaS founders et auto-entrepreneurs.
 
 ---
 
-## Sections
+## 🎯 Objectif de la landing page
 
-- Hero
-- Partners or Clients Logos
-- Features
-- Pricing
-- Testimonials
-- FAQ
-- Statistics
-- CTA
-- Footer
+La landing page n’a **qu’un seul rôle** :
 
----
+👉 **Créer une prise de conscience immédiate.**
 
-## Getting Started
+L’utilisateur doit comprendre en quelques secondes que :
 
-### Prerequisites
+- son chiffre d’affaires est trompeur,
+- il ne sait pas combien vaut réellement un client,
+- il prend des décisions sur un faux chiffre.
 
-Before starting, make sure you have the following installed:
-
-- **Node.js**: Version 18 or later
-- **npm**: Version 8 or later (bundled with Node.js)
-- **Code editor**: [VS Code](https://code.visualstudio.com/) is recommended.
-
-### Steps
-
-1. **Install dependencies**: Run `npm install`
-2. **Run the development server**: `npm run dev`
-3. **View your project**: Open [localhost:3000](http://localhost:3000)
+La landing page **est déjà le produit**.
 
 ---
 
-## Customization
+## 🧠 Principe clé
 
-1. **Edit colors**: Update `globals.css` for primary, secondary, background, and accent colors.
-2. **Update site details**: Customize `siteDetails.ts` in `/src/data` to reflect your brand and site info.
-3. **Modify content**: Files in `/src/data` handle data for navigation, features, pricing, testimonials, and more.
-4. **Replace favicon**: Add your icon to `/src/app/favicon.ico`.
-5. **Add images**: Update `public/images` for Open Graph metadata (e.g., `og-image.jpg`, `twitter-image.jpg`).
+> **Chaque prix a une réalité.**
 
----
+Exemple :
 
-## Deploying on Vercel
-
-The fastest way to deploy Finwise is on [Vercel](https://vercel.com/). Simply click the "Deploy with Vercel" button at the top of this README, or check the [Next.js deployment docs](https://vercel.com/docs/deployments/deployment-methods) for other deployment options.
+> _Un abonnement à 19€ ne te rapporte pas 19€.  
+> Il te rapporte X€._
 
 ---
 
-## Contributing
+## 🟢 Structure de la landing page
 
-Finwise is an open-source project, and we welcome contributions from the community! If you have ideas for new components, designs, layouts, or optimizations, please join us in making Finwise even better.
+### 1️⃣ Hero — La claque immédiate
 
-### How to Contribute
+**Titre**
 
-1. **Fork the Repository**: Clone it locally.
-2. **Create a New Branch**: For example, `feature/new-section` or `fix/style-issue`.
-3. **Develop and Test**: Make sure your changes work and don't break existing functionality.
-4. **Submit a Pull Request**: Open a pull request with a clear description of your changes, and we'll review it.
+> 💰 Sur un abonnement à 19€, combien te reste-t-il vraiment ?
 
-### Ideas for Contributions
+**Sous-titre**
 
-- New component sections (team introductions, comparison table, case studies, etc.)
-- Additional page variants (e.g., agency, eCommerce, portfolio layouts)
-- Additional themes
-- Documentation updates, tutorials, or guides
+> Entre les coûts, l’URSSAF, la TVA et les impôts,  
+> le prix affiché n’est jamais la réalité.
 
----
+**CTA principal**
 
-## Community and Support
+👉 Voir ce que vaut vraiment mon prix
 
-Join our community discussions on GitHub to share ideas, ask questions, or suggest improvements. Let’s build something amazing together!
+Objectif :  
+➡️ attirer  
+➡️ intriguer  
+➡️ provoquer l’envie de faire le calcul
 
 ---
 
-## License
+### 2️⃣ Le problème — Reconnaissance immédiate
 
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it for personal or commercial projects.
+Texte clé :
+
+> Tu vends ton SaaS 19€ par mois.  
+> Mais :
+
+- tu ne sais pas combien part en charges,
+- tu ne sais pas ce que te coûte vraiment un client,
+- tu découvres ton “vrai revenu” trop tard.
+
+Conclusion :
+
+> Le chiffre affiché te rassure.  
+> La réalité te surprend.
+
+Objectif :  
+➡️ l’utilisateur se reconnaît  
+➡️ il se sent concerné
+
+---
+
+### 3️⃣ L’exemple concret — Le moment “ah merde”
+
+Exemple affiché (fictif mais crédible) :
+
+**Abonnement à 19€**
+
+- Paiement & outils : 3,20 €
+- Charges & impôts : 6,80 €
+- 💰 **Revenu réel : 9,00 €**
+
+Phrase clé :
+
+> Ton SaaS ne te rapporte pas 19€.  
+> Il te rapporte 9€.
+
+Objectif :  
+➡️ provoquer le choc  
+➡️ rendre la douleur tangible
+
+---
+
+### 4️⃣ La solution — Sans jargon
+
+Présentation simple :
+
+> Une décomposition claire de chaque euro facturé.
+
+Pour chaque abonnement :
+
+- ce qui part en coûts,
+- ce qui part à l’État,
+- ce qui reste pour toi.
+
+Promesse :
+
+- Aucun tableur
+- Aucune approximation
+- Juste la vérité
+
+Objectif :  
+➡️ rassurer  
+➡️ montrer la simplicité
+
+---
+
+### 5️⃣ Pourquoi c’est indispensable
+
+Bénéfices concrets :
+
+- Fixer un prix rentable **avant de vendre**
+- Savoir combien vaut **un client de plus**
+- Décider si 19€, 29€ ou 49€ est viable
+- Arrêter de piloter son SaaS à l’aveugle
+
+Objectif :  
+➡️ transformer la prise de conscience en décision
+
+---
+
+### 6️⃣ CTA final — Symétrique au hero
+
+Phrase clé :
+
+> 🎯 Chaque prix a une réalité.
+
+CTA :
+
+👉 Découvrir la mienne maintenant
+
+Objectif :  
+➡️ déclencher l’action  
+➡️ fermer la boucle
+
+---
+
+## 🚫 Ce que la landing page NE doit PAS faire
+
+- ❌ Lister des features
+- ❌ Montrer des écrans complexes
+- ❌ Parler d’optimisation fiscale
+- ❌ Utiliser du jargon financier
+
+👉 Expliquer = perdre  
+👉 Révéler = convertir
+
+---
+
+## 🧪 Lancement avant l’outil
+
+La landing page peut exister :
+
+- avant le produit final,
+- avec un exemple,
+- avec une simulation simple,
+- ou même juste pour capter des emails.
+
+👉 Si ça clique, on construit.  
+👉 Si ça ne clique pas, on ajuste.
+
+---
+
+## 🧠 Résumé
+
+Ce produit ne vend pas un calcul.
+Il vend une vérité.
+
+> **19€ facturés ≠ 19€ gagnés.**

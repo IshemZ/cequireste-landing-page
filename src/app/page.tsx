@@ -19,16 +19,16 @@ const HomePage: React.FC = () => {
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Ton abonnement à 19€ en réalité"
+          description="Le moment où tu comprends que 19€ facturés ne font pas 19€ gagnés."
         >
           <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="Pourquoi c'est indispensable"
+          description="Fixer un prix rentable avant de vendre, savoir combien vaut un client de plus, arrêter de piloter à l'aveugle."
         >
           <Testimonials />
         </Section>
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
         <FAQ />
 
         <Stats />
-        
+
         <CTA />
       </Container>
     </>
