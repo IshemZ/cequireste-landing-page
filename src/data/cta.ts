@@ -1,7 +1,6 @@
 export const ctaDetails = {
-  heading: "🎯 Chaque prix a une réalité.",
+  heading: "🎯 Prêt à connaître tes vrais revenus ?",
   subheading:
-    "Découvre combien te reste vraiment sur tes abonnements. Sans jargon, juste la vérité.",
-  appStoreUrl: "#",
-  googlePlayUrl: "#",
+    "Arrête de deviner et commence à savoir. Calcule tes prix justes et fais vivre ton petit business.",
+  demoUrl: "/demo", // Lien vers une page de démo gratuite
 };

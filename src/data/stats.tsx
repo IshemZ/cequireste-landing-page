@@ -7,16 +7,17 @@ export const stats: IStats[] = [
   {
     title: "100%",
     icon: <BsBarChartFill size={34} className="text-blue-500" />,
-    description: "Transparence sur chaque euro facturé. Plus de surprises.",
+    description:
+      "Transparence sur tes vrais revenus. Fini les mauvaises surprises.",
   },
   {
     title: "5 min",
     icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-    description: "Pour découvrir le vrai revenu de votre abonnement.",
+    description: "Pour comprendre enfin combien vaut ton travail.",
   },
   {
     title: "0€",
     icon: <PiGlobeFill size={34} className="text-green-600" />,
-    description: "Pour commencer. Version gratuite pour révéler votre réalité.",
+    description: "Pour démarrer. Outil gratuit pour les petits entrepreneurs.",
   },
 ];

@@ -19,16 +19,16 @@ const HomePage: React.FC = () => {
 
         <Section
           id="pricing"
-          title="Ton abonnement à 19€ en réalité"
-          description="Le moment où tu comprends que 19€ facturés ne font pas 19€ gagnés."
+          title="Comprends tes prix réels"
+          description="Découvre ce qui reste vraiment après tous les frais. Le calcul qui change tout pour ton business."
         >
           <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="Pourquoi c'est indispensable"
-          description="Fixer un prix rentable avant de vendre, savoir combien vaut un client de plus, arrêter de piloter à l'aveugle."
+          title="Ils ont transformé leur business"
+          description="Des entrepreneurs comme toi qui ont enfin compris leurs vrais revenus et lancé des business viables."
         >
           <Testimonials />
         </Section>

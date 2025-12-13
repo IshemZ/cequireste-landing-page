@@ -4,28 +4,29 @@ import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
   {
-    title: "Le problème invisible",
+    title: "Le problème des petits business",
     description:
-      "Tu vends ton SaaS 19€ par mois. Mais le prix affiché n'est jamais la réalité. Entre les coûts, les charges et les impôts, tu découvres trop tard combien vaut vraiment un client.",
+      "Tu lances ton service à 19€ par mois pour attirer les clients. Mais entre les charges sociales, la compta et les impôts, tu réalises trop tard que tes prix ne couvrent pas tes coûts réels.",
+    imageSrc: "/images/hero-chart.webp", // Image temporaire - remplacer par problem.jpg quand disponible
     bullets: [
       {
-        title: "Charges cachées",
-        description: "Tu ne sais pas combien part en frais fixes et variables.",
-        icon: <FiDollarSign size={26} />,
+        title: "Charges invisibles",
+        description:
+          "URSSAF, comptable, assurances... Ces frais grignotent tes marges sans que tu t'en rendes compte.",
+        icon: <FiDollarSign size={26} className="text-red-500" />,
       },
       {
-        title: "Coût client inconnu",
+        title: "Prix mal calculés",
         description:
-          "Le vrai coût d'acquisition et de rétention d'un client reste un mystère.",
-        icon: <FiUserX size={26} />,
+          "Tu fixes tes tarifs au feeling, sans savoir si tu peux vivre de ton activité.",
+        icon: <FiUserX size={26} className="text-red-500" />,
       },
       {
-        title: "Revenus illusoires",
+        title: "Business instable",
         description:
-          "Le chiffre affiché te rassure, mais la réalité te surprend toujours.",
-        icon: <FiTrendingDown size={26} />,
+          "Sans visibilité sur tes vrais revenus, tu avances dans le brouillard et risques de tout perdre.",
+        icon: <FiTrendingDown size={26} className="text-red-500" />,
       },
     ],
-    imageSrc: "/images/mockup-1.webp",
   },
 ];

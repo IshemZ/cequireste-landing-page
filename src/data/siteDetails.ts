@@ -2,9 +2,9 @@ export const siteDetails = {
   siteName: "CeQuiReste",
   siteUrl: "https://cequireste.vercel.app/",
   metadata: {
-    title: "CeQuiReste - Combien te reste-t-il vraiment sur tes abonnements ?",
+    title: "CeQuiReste - Calcule tes vrais revenus de petit entrepreneur",
     description:
-      "Révélez la vérité économique de vos prix. Entre coûts, URSSAF, TVA et impôts, le prix affiché n'est jamais la réalité.",
+      "L'outil indispensable pour les freelances, solopreneurs et petits business. Découvre ce qui reste vraiment dans ta poche après tous les frais.",
   },
   language: "fr-fr",
   locale: "fr-FR",

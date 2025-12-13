@@ -4,20 +4,17 @@ import { siteDetails } from "./siteDetails";
 export const testimonials: ITestimonial[] = [
   {
     name: "Marie Dupont",
-    role: "Fondatrice SaaS",
-    message: `Enfin je sais combien vaut vraiment un client. Plus de décisions sur des chiffres trompeurs. ${siteDetails.siteName} m'a permis de fixer des prix rentables dès le départ.`,
-    avatar: "/images/testimonial-1.webp",
+    role: "Créatrice de contenu freelance",
+    message: `Enfin je comprends mes vrais revenus ! Avant, je fixais mes prix au hasard. Maintenant je sais exactement ce qui rentre dans ma poche après toutes les charges.`,
   },
   {
     name: "Pierre Martin",
-    role: "Solopreneur",
-    message: `J'arrête de piloter mon business à l'aveugle. Savoir le vrai revenu par abonnement change tout pour prendre les bonnes décisions.`,
-    avatar: "/images/testimonial-2.webp",
+    role: "Développeur indépendant",
+    message: `Comme solopreneur, je travaillais dans le brouillard. ${siteDetails.siteName} m'a ouvert les yeux sur mes coûts réels et m'a permis de doubler mes tarifs en toute sérénité.`,
   },
   {
     name: "Sophie Leroy",
-    role: "CEO Startup",
-    message: `${siteDetails.siteName} révèle la réalité économique. Entre coûts et impôts, je découvre enfin combien reste dans ma poche. Indispensable !`,
-    avatar: "/images/testimonial-3.webp",
+    role: "Coach business en ligne",
+    message: `Pour mon petit business, chaque euro compte. ${siteDetails.siteName} m'a aidée à voir clair dans mes finances et à construire un modèle viable.`,
   },
 ];

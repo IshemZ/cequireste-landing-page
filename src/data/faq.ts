@@ -4,26 +4,26 @@ import { siteDetails } from "./siteDetails";
 export const faqs: IFAQ[] = [
   {
     question: `Qu'est-ce que ${siteDetails.siteName} ?`,
-    answer: `${siteDetails.siteName} est un révélateur de réalité économique pour solopreneurs et SaaS founders. Il décompose chaque euro facturé pour montrer exactement ce qui reste dans votre poche.`,
+    answer: `${siteDetails.siteName} est l'outil indispensable pour les petits entrepreneurs qui veulent enfin comprendre leurs vrais revenus. Il révèle ce qui reste vraiment dans ta poche après tous les frais.`,
   },
   {
     question: "Comment ça fonctionne ?",
     answer:
-      "Entrez le prix de votre abonnement, vos coûts, charges et impôts. Nous calculons automatiquement le revenu réel par client.",
+      "Rentre le prix de ton service, ajoute tes charges (URSSAF, compta, etc.) et découvre instantanément ton revenu réel. Simple comme un tableur, mais précis comme un expert-comptable.",
   },
   {
     question: "Est-ce que c'est gratuit ?",
     answer:
-      "Oui, la version de base est gratuite pour découvrir votre réalité économique. Des options premium pour analyses avancées.",
+      "Oui ! La version gratuite te permet de faire tous tes calculs et de comprendre tes coûts. Parfait pour les petits business qui démarrent.",
   },
   {
     question: "Pour qui est-ce fait ?",
     answer:
-      "Pour tous les créateurs de SaaS, solopreneurs et auto-entrepreneurs qui veulent des prix rentables et une visibilité claire sur leurs revenus.",
+      "Pour toi si tu es freelance, solopreneur, créateur de contenu, coach ou tout petit business qui vend des services. Si tu factures des abonnements ou des prestations, c'est pour toi.",
   },
   {
     question: "Pourquoi pas un simple tableur ?",
     answer:
-      "Parce que les tableurs demandent des connaissances fiscales et comptables. Nous simplifions tout pour que vous ayez la réponse en quelques clics.",
+      "Les tableurs demandent de connaître la compta. Nous, on simplifie tout : tu rentres tes chiffres, on te donne la vérité. Pas besoin d'être expert !",
   },
 ];

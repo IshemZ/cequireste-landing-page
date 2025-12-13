@@ -1,6 +1,6 @@
 export const heroDetails = {
-  heading: "💰 Sur un abonnement à 19€, combien te reste-t-il vraiment ?",
+  heading:
+    "💰 Pour ton petit business, combien reste-t-il vraiment sur tes 19€ d'abonnement ?",
   subheading:
-    "Entre les coûts, l'URSSAF, la TVA et les impôts, le prix affiché n'est jamais la réalité.",
-  centerImageSrc: "/images/hero-mockup.webp",
+    "Entre les charges sociales, la TVA, les impôts et les frais, le prix que tu annonces n'est pas celui que tu touches. Découvre la vérité.",
 };
