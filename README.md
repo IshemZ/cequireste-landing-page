@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnexi-launch%2Ffinwise-landing-page)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnexi-launch%2Ffinwise-landing-page).
 
 # Finwise - Next.js + Tailwind Landing Page Template
 
@@ -96,8 +96,7 @@ Finwise is an open-source project, and we welcome contributions from the communi
 
 Join our community discussions on GitHub to share ideas, ask questions, or suggest improvements. Let’s build something amazing together!
 
-
---- 
+---
 
 ## License
 
