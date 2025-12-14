@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             {heroDetails.subheading}
           </p>
           <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto lg:mx-0">
-            <button className="bg-primary hover:bg-primary-accent text-white font-semibold py-3 px-6 rounded-full transition-colors">
+            <button className="bg-primary hover:bg-primary-accent text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105 transform focus:ring-2 focus:ring-primary focus:ring-offset-2">
               Calcule mes vrais revenus
             </button>
           </div>
